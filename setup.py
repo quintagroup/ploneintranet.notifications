@@ -35,6 +35,7 @@ setup(name='ploneintranet.notifications',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.api',
           # -*- Extra requirements: -*-
       ],
       extras_require={
@@ -46,5 +47,7 @@ setup(name='ploneintranet.notifications',
       },
       entry_points="""
       # -*- Entry points: -*-
+      [z3c.autoinclude.plugin]
+      target = plone
       """,
       )
