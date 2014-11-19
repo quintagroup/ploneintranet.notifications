@@ -23,6 +23,7 @@ var/
 .installed.cfg
 local.cfg
 *.egg
+src/plonesocial.*/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

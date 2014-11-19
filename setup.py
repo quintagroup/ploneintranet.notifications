@@ -36,6 +36,7 @@ setup(name='ploneintranet.notifications',
       install_requires=[
           'setuptools',
           'plone.api',
+          'plonesocial.microblog',
           # -*- Extra requirements: -*-
       ],
       extras_require={
