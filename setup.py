@@ -36,6 +36,7 @@ setup(name='ploneintranet.notifications',
       install_requires=[
           'setuptools',
           'plone.api',
+          'plone.dexterity',
           'plonesocial.microblog',
           # -*- Extra requirements: -*-
       ],
