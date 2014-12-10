@@ -4,6 +4,9 @@ Changelog
 0.1-dev (unreleased)
 --------------------
 
+- Make notification viewlet
+  [maartenkling]
+
 - Package created using templer
   [Plone Intranet Consortium]
 
