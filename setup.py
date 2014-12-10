@@ -43,6 +43,7 @@ setup(name='ploneintranet.notifications',
       extras_require={
           'test': [
               'plone.app.testing',
+              'plone.app.contenttypes[test]',
               'plone.browserlayer',
               'unittest2',
           ],
