@@ -36,12 +36,14 @@ setup(name='ploneintranet.notifications',
       install_requires=[
           'setuptools',
           'plone.api',
+          'plone.dexterity',
           'plonesocial.microblog',
           # -*- Extra requirements: -*-
       ],
       extras_require={
           'test': [
               'plone.app.testing',
+              'plone.app.contenttypes[test]',
               'plone.browserlayer',
               'unittest2',
           ],
