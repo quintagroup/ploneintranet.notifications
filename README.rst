@@ -3,6 +3,15 @@ ploneintranet.notifications
 
 Code to create the backend for the notifications subsystem
 
+Build status
+------------
+
+.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Notifications
+    :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Notifications/
+
+.. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Suite%20Master
+    :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Suite%20Master/badge/
+
 Copyright (c) Plone Foundation
 ------------------------------
 
