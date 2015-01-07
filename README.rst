@@ -7,13 +7,13 @@ Build status
 ------------
 
 Notification tests
-==================
+~~~~~~~~~~~~~~~~~~
 
 .. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Notifications
     :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Notifications/
 
 Robot tests for Plone Intranet
-==============================
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: http://jenkins.ploneintranet.net/buildStatus/icon?job=Plone%20Intranet%20Suite%20Master
     :target: http://jenkins.ploneintranet.net/job/Plone%20Intranet%20Suite%20Master/badge/
