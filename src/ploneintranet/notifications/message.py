@@ -5,7 +5,7 @@ from persistent import Persistent
 from ploneintranet.notifications.interfaces import IMessage
 from zope.interface import implements
 import pickle
-
+import os, binascii
 
 class Message(Persistent):
     actors = None
@@ -16,7 +16,7 @@ class Message(Persistent):
 
     def __init__(self, actors, predicate, obj):
         self.actors = actors
-
+        self.id = binascii.b2a_hex(os.urandom(15))
         # make sure actors is a list
         if not isinstance(self.actors, list):
             self.actors = [self.actors]
